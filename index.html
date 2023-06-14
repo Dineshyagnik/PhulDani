@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Phul-Dani</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="sideImg"></div>
+      <div class="content_div">
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg border">
+          <div class="container-fluid">
+            <div class="logo">
+              <img
+                src="./images/logo.png"
+                alt=""
+              />
+            </div>
+            <div class="icon_div1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-search cursor_pointer_Icon search_icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-person-fill ms-2 cursor_pointer_Icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13"
+                height="13"
+                fill="currentColor"
+                class="bi bi-cart-fill ms-2 cursor_pointer_Icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                />
+              </svg>
+            </div>
+            <button
+              class="navbar-toggler toggler_btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show_nav" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link header_text cursor_pointer"
+                    aria-current="page"
+                    href="#"
+                    >Inspirations
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_text cursor_pointer" href="#"
+                    >Planters
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_text cursor_pointer" href="#"
+                    >Table Planters
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_text cursor_pointer" href="#"
+                    >Substrates
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_text cursor_pointer" href="#"
+                    >Accessories
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_text cursor_pointer" href="#"
+                    >Furniture
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="icon_div2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-search cursor_pointer_Icon search_icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-person-fill ms-2 cursor_pointer_Icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13"
+                height="13"
+                fill="currentColor"
+                class="bi bi-cart-fill ms-2 cursor_pointer_Icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                />
+              </svg>
+            </div>
+          </div>
+        </nav>
+
+        <div class="m-0 p-0 container-fluid table_deco">
+          <div class="table_div1"></div>
+          <div class="table_div2">
+            <h1>Table Decoration In Spring</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              <br />
+              industry.
+            </p>
+            <button class="table_btn">Show Table Planters</button>
+          </div>
+          <div class="table_div3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="second_div">
+      <h1>Hello spring - glad you are here!</h1>
+      <div class="paragraph">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has <br />
+          been the industry's standard dummy text ever since the 1500s,
+        </p>
+      </div>
+    </div>
+
+    <!-- 3 images cards  -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 w-100 ps-4 image_card">
+      <div class="col">
+        <div class="card card_image">
+          <img
+            src="./images/card1.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body card_content">
+            <h5 class="card-title card_text">Evergreen Plant</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card_image">
+          <img
+            src="./images/card2.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body card_content">
+            <h5 class="card-title card_text">Biennial Plants</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card_image">
+          <img
+            src="./images/card3.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body card_content">
+            <h5 class="card-title card_text">Aglaonema Plant</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 4th image's div  -->
+    <div class="container-fluid image_container">
+      <div class="first_row_image">
+        <div class="first_image">
+          <div class="first_cont">
+            <p class="image_text_style">Oasis of well-being with Phuldani</p>
+            <button class="image_btn">To The Instruction</button>
+          </div>
+          <div class="second_cont"></div>
+        </div>
+        <div class="second_image">
+          <div class="first_cont">
+            <p class="image_text_style">Oasis of well-being with Phuldani</p>
+            <button class="image_btn">Discover Now</button>
+          </div>
+          <div class="second_cont"></div>
+        </div>
+      </div>
+      <div class="second_row_image">
+        <div class="third_image">
+          <div class="first_cont">
+            <p class="image_text_style">Oasis of well-being with Phuldani</p>
+            <button class="image_btn">Discover Now</button>
+          </div>
+          <div class="second_cont"></div>
+        </div>
+        <div class="fourth_image">
+          <div class="first_cont">
+            <p class="image_text_style">Oasis of well-being with Phuldani</p>
+            <button class="image_btn">Learn More</button>
+          </div>
+          <div class="second_cont"></div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="container-fluid discoutnt_div">
+        <p class="discount_para">
+          been the industry's standard dummy text ever since the 1500s,
+        </p>
+        <h1 class="discount_head">Get Up To 70% Off!</h1>
+      </div>
+      <div class="container testimonial">
+        <h1 class="testimonial_head">Testimonial</h1>
+        <div class="div_icon1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="20"
+            fill="currentColor"
+            class="bi bi-quote quot_icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"
+            />
+          </svg>
+        </div>
+        <div class="para_div">
+          <p class="testimonial_para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an.
+          </p>
+        </div>
+        <div class="div_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="20"
+            fill="currentColor"
+            class="bi bi-quote quot_icon2"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"
+            />
+          </svg>
+        </div>
+        <div class="profile">
+          <img
+            src="./images/profile.png"
+            alt=""
+          />
+        </div>
+        <div class="profile_name">
+          <h6>Alexa Gomez</h6>
+        </div>
+        <div class="profile_category">
+          <p>Customer</p>
+        </div>
+        <div class="slider_div">
+          <div>
+            <button class="slider_btn"><</button>
+            <button class="slider_btn2">></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid phuldani_special">
+      <h1>What makes Phuldani special?</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has <br />
+        been the industry's standard dummy text ever since the 1500s,
+      </p>
+    </div>
+
+    <!-- cards  -->
+    <div class="container mt-3">
+      <div class="card-group gap-3">
+        <div class="card card_style">
+          <img
+            src="./images/3.png"
+            class="card-img-top card_style1"
+            alt="..."
+          />
+          <div class="card-body card_txt">
+            <h5 class="card-title card_head">Intelligent System</h5>
+            <p class="card-text card_para">
+              Lorem Ipsum is simply dummy text of the printing & typesetting
+              industry. Lorem Ipsum has been the indust ry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+        </div>
+        <div class="card card_style">
+          <img
+            src="./images/4.png"
+            class="card-img-top card_style1"
+            alt="..."
+          />
+          <div class="card-body card_txt">
+            <h5 class="card-title card_head">Highest Quality</h5>
+            <p class="card-text card_para">
+              Lorem Ipsum is simply dummy text of the printing & typesetting
+              industry. Lorem Ipsum has been the indust ry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+        </div>
+        <div class="card card_style">
+          <img
+            src="./images/5.png"
+            class="card-img-top card_style1"
+            alt="..."
+          />
+          <div class="card-body card_txt">
+            <h5 class="card-title card_head">Award-winning Design</h5>
+            <p class="card-text card_para">
+              Lorem Ipsum is simply dummy text of the printing & typesetting
+              industry. Lorem Ipsum has been the indust ry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="latest_blog">
+      <h1>Latest Blog</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been <br />
+        the industry's standard dummy text ever since the 1500s,
+      </p>
+    </div>
+
+    <!-- two cards  -->
+    <div class="container main_content_div">
+      <div class="content1">
+        <div class="img_div1">
+          <img
+            src="./images/6.png"
+            alt=""
+          />
+        </div>
+        <div class="text_box1">
+          <p>10 April, 2023</p>
+          <h6>Oasis of well-being with Phuldani</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing & typesetting
+            industry. Lorem Ipsum has been the indust ry's standard dummy text
+            ever since the 1500s,
+          </p>
+          <div class="readMore_btn_center"><button>Read More</button></div>
+        </div>
+      </div>
+      <div class="content2">
+        <div class="text_box2">
+          <p>10 April, 2023</p>
+          <h6>Oasis of well-being with Phuldani</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing & typesetting
+            industry. Lorem Ipsum has been the indust ry's standard dummy text
+            ever since the 1500s,
+          </p>
+          <div class="readMore_btn_center"><button>Read More</button></div>
+        </div>
+        <div class="img_div2">
+          <img
+            src="./images/7.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="slider_div2">
+      <div>
+        <button class="slider_btn11"><</button>
+        <button class="slider_btn3">></button>
+      </div>
+    </div>
+
+    <div class="newsletter pt-3">
+      <h1>Subscribe Newsletter</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has bee since the 1500s, when an unknown printer
+        took a galley of type and scrambled it to make
+      </p>
+      <div class="email_inpt">
+        <input type="text" placeholder="   Enter Email Address" />
+        <button>Subscribe</button>
+      </div>
+      <div class="container-fluid mt-5 footer_div">
+        <div class="footer1">
+          <h4>Phuldani</h4>
+          <p>Company</p>
+          <p>Environmental and Energy</p>
+          <p>Policy Press</p>
+        </div>
+        <div class="footer2">
+          <h4>Customer Service</h4>
+          <p>Frequently asked questions</p>
+          <p>Downloads</p>
+          <p>Contact</p>
+        </div>
+        <div class="footer3">
+          <h4>Disclaimer</h4>
+          <p>Legal Information</p>
+          <p>Privacy Policy</p>
+          <p>Copyright</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer">
+      <p>Copyright All Right Reserved 2023</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
